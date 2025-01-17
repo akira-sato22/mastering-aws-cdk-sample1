@@ -8,7 +8,11 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy": "cdk deploy --profile sandbox",
+    "destroy": "cdk destroy --profile sandbox",
+    "diff": "cdk diff --profile sandbox",
+    "synth": "cdk synth --profile sandbox"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
